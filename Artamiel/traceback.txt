@@ -1,0 +1,21 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 151, in script
+    m " En esta historia se Trata de una nueva vida entre los humanos y criaturas, con su hermano Razer, franlkin y Scar encontraran el camino a la paz y orden"
+Exception: Sayer 'm' is not defined.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 151, in script
+    m " En esta historia se Trata de una nueva vida entre los humanos y criaturas, con su hermano Razer, franlkin y Scar encontraran el camino a la paz y orden"
+  File "C:\Users\Daniel\Desktop\LabProgra1\renpy-6.18.3-sdk\renpy\ast.py", line 573, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "C:\Users\Daniel\Desktop\LabProgra1\renpy-6.18.3-sdk\renpy\ast.py", line 491, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who.encode("utf-8"))
+Exception: Sayer 'm' is not defined.
+
+Windows-post2008Server-6.2.9200
+Ren'Py 6.18.3.761
+Artamiel 0.0
